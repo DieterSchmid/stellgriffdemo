@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Stellgriff-Profil Analyse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Stellgriff-Profil Analyse</h1>
+        <p class="branding">Doppelpunkt Dieter Schmid Managing Consulting</p>
+    </header>
+    <form id="questionnaire"></form>
+    <button onclick="calculateResults()">Auswertung anzeigen</button>
+    <canvas id="resultChart" width="400" height="200"></canvas>
+    <div id="evaluationText"></div>
+    <button onclick="downloadPDF()">PDF herunterladen</button>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="data/questions.js"></script>
+    <script src="data/evaluation.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
