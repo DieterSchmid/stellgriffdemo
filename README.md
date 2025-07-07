@@ -2,7 +2,7 @@
 # Stellgriff-Profil Analyse
 
 Diese App erstellt ein Persönlichkeitsprofil anhand von 20 Fragen mit jeweils 4 Antwortmöglichkeiten.  
-**Branding:** Doppelpunkt Dieter Schmid Managing Consulting
+**Branding:** Biber Consulting by Dieter Schmid 
 
 ## Funktionen
 - Automatisierte Punktevergabe
